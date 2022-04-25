@@ -9,7 +9,7 @@
           v-spacer       
           div.mx-2(style="text-align: center; color: white")
             img(:src="require('/assets/images/zalo1.svg')" :height="24")
-            div +847 026 870 43
+            div +84346374016
           div.mx-2(style="text-align: center; color: white")
             img(:src="require('/assets/images/mail1.svg')" :height="24")
             div hr.vieclamonline@gmail.com
