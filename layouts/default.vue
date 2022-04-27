@@ -9,7 +9,7 @@
           v-spacer       
           div.mx-2(style="text-align: center; color: white")
             img(:src="require('/assets/images/zalo1.svg')" :height="24")
-            div +84346374016
+            div {{listNumber[random]}}
           div.mx-2(style="text-align: center; color: white")
             img(:src="require('/assets/images/mail1.svg')" :height="24")
             div hr.vieclamonline@gmail.com
@@ -50,7 +50,7 @@
           :value="overlay")
         .d-flex(style="flex-direction: column")  
             h1.my-3(style="text-align: center") Quét Mã Zalo:
-            img.my-3(:src="require('/assets/images/popup.jpg')")
+            img.my-3(:src="require(`/assets/images/popup-${random}.png`)")
             v-btn.my-3(color="#3044B8" @click="overlay = false") Đóng
 </template>
 
@@ -59,9 +59,11 @@
     name: "DefaultLayout",
     data() {
       return {
+        listNumber: ["+84582341948", "+84587832546", "+84939152751"],
         overlay: false,
         absolute: false,
         opacity: 0.9,
+        random: Math.floor(Math.random() * (2 - 0 + 0) + 0),
         slides: [
           {
             title: require("/assets/images/text1.svg"),
