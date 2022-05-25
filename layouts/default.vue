@@ -59,7 +59,7 @@
     name: "DefaultLayout",
     data() {
       return {
-        listNumber: ["+84 582 341 948", "+84 587 832 546", "+84 939 152 751"],
+        listNumber: ["+84 582 341 948", "+84 587 832 546", "+84 582 141 733"],
         overlay: false,
         absolute: false,
         opacity: 0.9,
