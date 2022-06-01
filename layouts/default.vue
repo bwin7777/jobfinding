@@ -59,7 +59,12 @@
     name: "DefaultLayout",
     data() {
       return {
-        listNumber: ["+84 582 341 948", "+84 587 832 546", "+84 582 141 733"],
+        listNumber: [
+          "+84 582 341 948",
+          "+84 587 832 546",
+          "+84 817 790 471",
+          "+84 815 202 879"
+        ],
         overlay: false,
         absolute: false,
         opacity: 0.9,
@@ -81,7 +86,7 @@
       }
     },
     mounted() {
-      this.random = Math.floor(Math.random() * (3 - 1 + 1) + 1)
+      this.random = Math.floor(Math.random() * (4 - 1 + 1) + 1)
     }
   }
 </script>
