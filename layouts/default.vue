@@ -64,8 +64,7 @@
           "+84 587 832 546",
           "+84 817 790 471",
           "+84 339 990 129",
-          "+84 343 270 850",
-          "+84 582 962 877"
+          "+84 343 270 850"
         ],
         overlay: false,
         absolute: false,
@@ -88,7 +87,7 @@
       }
     },
     mounted() {
-      this.random = Math.floor(Math.random() * (6 - 1 + 1) + 1)
+      this.random = Math.floor(Math.random() * (5 - 1 + 1) + 1)
     }
   }
 </script>
